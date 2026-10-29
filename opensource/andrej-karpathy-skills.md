@@ -53,6 +53,18 @@ curl https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CL
 
 저장소에 Cursor 규칙 파일(`.cursor/rules/karpathy-guidelines.mdc`)이 들어 있습니다. 자세한 설정은 원본 저장소의 `CURSOR.md`를 참고합니다.
 
+## 스킬 호출법
+
+방법 A(플러그인)로 설치하면 `karpathy-guidelines` 스킬이 생깁니다.
+
+```
+/andrej-karpathy-skills:karpathy-guidelines
+```
+
+- 인자 없이 호출하면 4가지 원칙을 지금 대화에 불러옵니다.
+- **자동 호출:** 코드를 작성·리뷰·리팩터링할 때 Claude가 스스로 불러 씁니다. 그래서 보통은 직접 호출하지 않아도 됩니다.
+- 방법 B(`CLAUDE.md`)로 넣었다면 스킬이 아니라 항상 적용되는 규칙이므로 호출할 필요가 없습니다.
+
 ## 활용법
 
 - **프로젝트 규칙과 합치기:** 가이드라인 아래에 프로젝트 전용 규칙을 덧붙여 씁니다.

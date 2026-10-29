@@ -63,3 +63,13 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+---
+
+## 프로젝트 규칙 (opensource search)
+
+- 오픈소스마다 `opensource/<이름>.md` 상세 문서를 만들고, `README.md` 목록 표에 한 줄과 링크를 추가한다.
+- 오픈소스가 **스킬**(또는 스킬을 담은 플러그인)이면 상세 문서에 `## 스킬 호출법` 섹션을 넣는다.
+  - 슬래시 명령 형식(예: `/book-to-skill <파일>`, 플러그인 스킬은 `/플러그인:스킬`)
+  - 인자와 호출 예시
+  - 명령 없이 자동으로 불리는 조건(스킬 description 기준)이 있으면 함께 적는다.
