@@ -8,3 +8,4 @@
 | 이름 | 한 줄 설명 | 상세 문서 |
 |------|-----------|-----------|
 | andrej-karpathy-skills | Karpathy의 관찰을 바탕으로 Claude Code의 코딩 습관을 개선하는 `CLAUDE.md` 가이드라인 | [바로가기](opensource/andrej-karpathy-skills.md) |
+| book-to-skill | 기술 서적 PDF·문서 폴더를 AI 에이전트가 불러 쓰는 스킬로 바꿔 주는 변환기 | [바로가기](opensource/book-to-skill.md) |
