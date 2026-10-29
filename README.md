@@ -1,0 +1,10 @@
+# opensource search
+
+여러 오픈소스를 한곳에 모아 **링크·사용법·활용법**을 한눈에 볼 수 있도록 정리하는 저장소입니다.
+각 오픈소스의 상세 내용은 [opensource](opensource/) 폴더의 개별 문서에 있습니다.
+
+## 오픈소스 목록
+
+| 이름 | 한 줄 설명 | 상세 문서 |
+|------|-----------|-----------|
+| andrej-karpathy-skills | Karpathy의 관찰을 바탕으로 Claude Code의 코딩 습관을 개선하는 `CLAUDE.md` 가이드라인 | [바로가기](opensource/andrej-karpathy-skills.md) |
